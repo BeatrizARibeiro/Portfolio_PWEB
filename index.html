@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="icon.png">
+    <title>Potfólio</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark static-top" id="nav" style="background-color: #ad0048;">
+        <div class="container">
+            <div class="logo" class="navbar-brand"><h1><img src="icon.png" style="height: 40px;"> Beatriz</h1></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto" style="text-align:center;">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#inicio">Início</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#sobre">Sobre</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#educ">Educação</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#habi">Habilidades</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#proj">Projetos</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div class="inicio" id="inicio">
+        <div class="i" style="text-align: center;">
+            <h2>Beatriz Ribeiro</h2>
+            <center><div class="tracinho"></div></center>
+            <a href="https://github.com/BeatrizARibeiro" class="cont" target="_blank"><i class="fa-brands fa-github" style="font-size: 40px; margin: 10px; margin-right: 10px;"></i></a>
+            <a href="https://www.linkedin.com/in/beatrizribeiro1010" class="cont" target="_blank"><i class="fa-brands fa-linkedin" style="font-size: 40px; margin: 10px; margin-right: 10px;"></i></a>
+            <a href="https://www.instagram.com/triz_rib/?hl=pt-br" class="cont" target="_blank"><i class="fa-brands fa-instagram" style="font-size: 40px; margin: 10px; margin-right: 10px;"></i></a>
+        </div>
+    </div>
+
+
+    <div class="corpo"> 
+      <div id="sobre"></div>
+        <div class="sobre">
+            <h2 >Sobre Mim</h2>
+            <center><div class="traco"></div></center>
+            <section class="s-img">
+                <a href="https://www.youtube.com/watch?v=tw06n74CO00&ab_channel=viva%21" target="_blank"><img src="img/gostosa.jpg" class="img" id="eu"></a>
+            </section>
+            <section class="s-txt">
+                <p>Olá, eu sou a <span id="nome">Beatriz</span> e tenho 19 anos. Atualmente trabalho como 
+                    monitora de Estrutura de Dados na Fatec Sorocaba. E estou em busca do meu primeiro estágio como desenvolvedora!
+                    <br><br>
+                    Gosto de assistir no meu tempo livre e adoro gatos.
+                </p>
+            </section>
+            <center><a href="coisinhas/Currículo Beatriz.pdf" download="Beatriz_Curriculo_Linda_Me_Contrata"><button id="btnCv">Currículo</button></a></center>
+            
+          </div>
+
+        <center><img src="img/ejetado.png" class="ejetado"></center>
+
+        <div id="educ"></div>
+        <div class="educ">
+           <h2>Educação</h2>
+           <div class="missoes">
+                <p>Etec Fernado Preste: Ensino Médio (3/3)</p>
+                <p>Etec Fernado Preste: Técnico em Informática para Internet (3/3)</p>
+                <p id="ff">Fatec Sorocaba: Análise e Desenvolvimento de Sistemas (4/6)</p>
+                <p id="vf">Curso em Vídeo: Java POO</p>
+           </div>
+        </div>
+
+
+        <center><img src="img/ejetado.png" class="ejetado"></center>
+
+        <div id="habi"></div>
+        <div class="habi" >
+          <h2>Habilidades</h2>
+          <div class="cards">
+            <div class="card flex-wrap">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" class="icon-card"/>
+              <div class="votos">
+                <p>Linguagem C</p>
+                <img src="img/votedpurple.png" class="voted">
+                <img src="img/votedblue.png" class="voted">
+                <img src="img/votedredgreen.png" class="voted">
+                <img src="img/votedyellow.png" class="voted">
+              </div>
+            </div>
+
+
+            <div class="card flex-wrap">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" class="icon-card"/>
+              <div class="votos">
+                <p>HTML</p>
+                <img src="img/votedred.png" class="voted">
+                <img src="img/votedorange.png" class="voted">
+                <img src="img/votedyellow.png" class="voted">
+                <img src="img/votedpink.png" class="voted">
+              </div>
+            </div>
+
+
+            <div class="card flex-wrap">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" class="icon-card"/>
+              <div class="votos">
+                <p>CSS</p>
+                <img src="img/votedblack.png" class="voted">
+                <img src="img/votedblue.png" class="voted">
+                <img src="img/votedpurple.png" class="voted">
+                <img src="img/votedredgreen.png" class="voted">
+              </div>
+            </div>
+
+            <div class="card flex-wrap">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" class="icon-card"/>
+              <div class="votos">
+                <p>C#</p>
+                <img src="img/votedpurple.png" class="voted">
+                <img src="img/votedblue.png" class="voted">
+                <img src="img/votedpink.png" class="voted">
+              </div>
+            </div>
+
+
+            <div class="card flex-wrap">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" class="icon-card"/>
+              <div class="votos">
+                <p>Java</p>
+                <img src="img/votedblue.png" class="voted">
+                <img src="img/votedred.png" class="voted">
+                <img src="img/votedorange.png" class="voted">
+              </div>
+            </div>
+
+
+            <div class="card flex-wrap">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/oracle/oracle-original.svg" class="icon-card"/>
+              <div class="votos">
+                <p>Oracle</p>
+                <img src="img/votedblack.png" class="voted">
+                <img src="img/votedred.png" class="voted">
+                <img src="img/votedredgreen.png" class="voted">
+              </div>
+            </div>
+
+            <div class="card flex-wrap">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" class="icon-card"/>
+              <div class="votos">
+                <p>Figma</p>
+                <img src="img/votedorange.png" class="voted">
+                <img src="img/votedpurple.png" class="voted">
+                <img src="img/votedblue.png" class="voted">
+                <img src="img/votedredgreen.png" class="voted">
+              </div>
+            </div>
+
+
+            <div class="card flex-wrap">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" class="icon-card"/>
+              <div class="votos">
+                <p>PHP</p>
+                <img src="img/votedblue.png" class="voted">
+                <img src="img/votedpurple.png" class="voted">
+              </div>
+            </div>
+
+
+            <div class="card flex-wrap">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" class="icon-card"/>
+              <div class="votos">
+                <p>Javascript</p>
+                <img src="img/votedyellow.png" class="voted">
+                <img src="img/votedblack.png" class="voted">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <center><img src="img/ejetado.png" class="ejetado"></center>
+
+        <div id="proj"></div>
+
+        <div class="proj" >
+          <h2>Projetos</h2>
+          <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false" data-bs-interval="false">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <center><img src="img/ProjDSMovie.png" class="carrossel" class="d-block w-100" alt="DSMovie" id="ds">
+                  <br><br>
+                  <a href="https://github.com/BeatrizARibeiro/dsmovie" target="_blank">DSMovie - Semana Srping Rect</a></center>
+              </div>
+              <div class="carousel-item">
+                <center><img src="img/prjcontato2.png" class="carrossel" class="d-block w-100" alt="Contato" id="cont">
+                  <br><br>
+                  <a href="https://github.com/BeatrizARibeiro/LP2/blob/main/PjContato0030482111036.zip" target="_blank">Projeto Contato - LP2</a></center>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+
+
+    </div>
+    <div id="vt">
+      <img src="img/ventfechada.png" alt="voltar ao topo" height="45px" onmouseover="abrir(this)" onmouseout="fechar(this)">
+  </div>
+
+    <footer id="foot">
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        © 2022 Copyright: Beatriz
+      </div>
+    </footer>
+
+<script src="script.js"></script>
+
+    
+</body>
+</html>

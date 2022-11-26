@@ -1,0 +1,740 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family:'Mercedes',sans-serif;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Mercedes';
+    src: url(coisinhas/Mercedes-Serial-Regular.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'vcr';
+    src: url(coisinhas/VCR_OSD_MONO_1.001.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    background-image: url('img/estrelas.png');
+}
+
+.navbar{ 
+    -webkit-box-shadow: 0px 1px 50px 3px rgba(0, 0, 0, 0.712); 
+    box-shadow: 0px 1px 50px 3px rgba(0, 0, 0, 0.692);
+}
+
+.logo h1{
+    font-size: 35px;
+    letter-spacing: 1px;
+    text-shadow: black 0.3em 0.3em 0.4em;
+    color: #000000;
+    text-align: center;
+    font-family: 'vcr';
+    display: inline-block;
+    font-weight: 700;
+    text-shadow: -1.5px 0 #ffffff, 0 1.5px #ffffff,
+      1.5px 0 #ffffff, 0 -1.5px #ffffff;
+}
+
+.navbar ul li a{
+    font-size: 18px;
+    padding: 10px 25px;
+    border-radius: 50px; 
+    transition: 0.3s;
+    margin: 0 5px;
+    margin-top: 5px;
+    letter-spacing: 0.5px;
+}
+
+.navbar ul li a:hover{
+    color: #ffffff;
+    
+}
+
+.tema{
+    height: 37px;
+    vertical-align:auto;
+    margin-top: 6px;
+    opacity: 0.9;
+}
+
+.tema:hover{
+    opacity: 1;
+}
+
+/*INICIO*/
+
+.inicio{
+    margin-top: 69px;
+    background-image: url(img/inicio.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #ffffff;
+    height: 500px;
+    -webkit-mask-image: linear-gradient(to top, transparent 9%, black 35%);
+}
+
+.i{
+    padding: 30px;
+    text-shadow: black 0.3em 0.3em 0.4em;
+}
+
+.i h2{
+    margin-top: 100px;
+    font-size: 40px;
+    letter-spacing: 0.8px;
+    font-family: 'vcr';
+    transition: 3s;
+    
+}
+
+.tracinho{
+    background-color: #ffffff73; 
+    height:1.3px; 
+    width: 390px; 
+}
+
+.cont{
+    color:#ffffffec;
+    
+}
+.cont:hover{
+    color:#ffffff73;
+    
+}
+
+/*SOBRE*/
+
+.sobre{
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.863);
+    margin-bottom: 40px;
+    box-shadow: 0px 1px 50px 3px rgba(0, 0, 0, 0.692);
+} 
+
+.sobre h2{
+    font-family: 'vcr';
+    font-size: 70px;
+    letter-spacing: 0.8px;
+    text-shadow: black 0.3em 0.3em 0.4em;
+    color: #ffffff;
+    text-align: center;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.traco{
+    background-color: #ffffff46; 
+    height:1.3px; 
+    width: 450px; 
+}
+
+.sobre p{
+    text-shadow: black 0.3em 0.3em 0.4em;
+    color: #ffffff;
+    margin-top: 40px;
+    font-style: normal;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+.sobre span{
+    color:red;
+    font-style: normal;
+    font-size: 25px;
+}
+
+.sobre img{
+    width: 300px;
+    margin-top: 20px;
+    border-radius: 50%;
+    border-width: 5px;
+    border-style: solid;
+    border-color: rgb(66, 2, 2);
+    margin: 10px;
+    opacity: 1 !important;
+}
+
+.s-img{
+    width: calc(80%/2);
+    display: flex;
+    flex-wrap: wrap;
+    float: left;
+    margin-top: 20px;
+}
+
+.s-txt{
+    width: calc(115%/2);
+    display: flex;
+    flex-wrap: wrap;
+    float: right;
+    word-spacing: 5px;
+}
+
+#btnCv{
+    text-align: center;
+    font-style: normal;
+    font-size: 20px;
+    padding: 6px;
+    color: #ffffff;
+    background-color: #b1161642;
+    border-radius: 5px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #990606e1;
+    cursor: pointer;
+}
+
+
+.ejetado{
+    height: 70px;
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+}
+    @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+    @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+    @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+/*EDUCAÇÃO*/
+.educ{
+    background-color: rgba(0, 0, 0, 0.863);
+    box-shadow: 0px 1px 50px 3px rgba(0, 0, 0, 0.692);
+}
+.educ h2{
+    text-align: center;
+    color: #ffffff;
+    background-image: linear-gradient(to right,rgb(0, 255, 21),rgb(0, 255, 21),rgb(31, 49, 34) );
+    text-shadow: -2px 0 #000000, 0 2px #000000,
+    2px 0 #000000, 0 -2px #000000;
+    border: 4px solid rgb(177, 174, 174);
+    margin-bottom: 20px;
+    border-radius: 1px;
+    font-size: 40px;
+}
+
+.missoes{
+    background-color: #cecece69;
+    color:#30fd1d;
+    text-shadow: -1.7px 0 #000000cb, 0 1.7px #000000cb,
+    1.7px 0 #000000cb, 0 -1.7px #000000cb;
+    font-size: 20px;
+    border-radius: 1px;
+}
+
+#ff{
+    color:#fdee1d;
+}
+
+#vf{
+    color:#ffffff;
+}
+
+/*HABILIDADES*/
+.habi{
+    background-color: rgba(0, 0, 0, 0.61);
+    box-shadow: 0px 1px 50px 3px rgba(0, 0, 0, 0.692);
+}
+.habi h2{
+    font-family: 'vcr';
+    letter-spacing: 0.8px;
+    text-shadow: black 0.3em 0.3em 0.4em;
+    color: #ffffff;
+    text-align: center;
+    font-size:70px;
+    font-style: normal;
+    margin-bottom: 35px;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    gap: 40px;
+}
+
+.card{
+    width: 290px;
+    height: 75px;
+    padding: 5px;
+    background-color: #ffffffb2;
+}
+
+.icon-card{
+    height: 60px;
+    width: 60px;
+
+}
+
+.card p{
+    color:#ffffff;
+    font-size: 20px;
+    text-shadow: -1.5px 0 #000000cb, 0 1.5px #000000cb,
+    1.5px 0 #000000cb, 0 -1.5px #000000cb;
+    margin-bottom: auto;
+}
+
+.votos{
+    width: 175px;
+    word-spacing: 5px;
+}
+
+.voted{
+    width: 35px;
+    display: inline;
+}
+
+
+/*PROJETOS*/
+.proj h2{
+    font-family: 'vcr';
+    letter-spacing: 0.8px;
+    text-shadow: black 0.3em 0.3em 0.4em;
+    color: #ffffff;
+    text-align: center;
+    font-size:70px;
+    font-style: normal;
+    margin-bottom: 35px;
+}
+
+.proj{
+    background-color: rgba(0, 0, 0, 0.61);
+    box-shadow: 0px 1px 50px 3px rgba(0, 0, 0, 0.692);
+}
+
+.carrossel{
+    margin-left: auto;
+    margin-right: auto; 
+    border:  rgb(66, 2, 32) solid 2px;
+    border-radius: 3px;
+}
+.proj a{
+    text-decoration: none;
+    color: #ffffff;
+    text-shadow: black 0.2em 0.2em 0.3em;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.proj a:hover{
+    color:  #d80645e1;
+}
+
+
+#vt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    bottom: 40px;
+    right: 20px;
+    cursor: pointer;
+    visibility: hidden;
+}
+
+footer{
+    margin-top: 40px;
+    background-color: #ad0048;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.logo-foot h1{
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-shadow: black 0.3em 0.3em 0.4em;
+    color: #000000;
+    text-align: center;
+    font-family: 'vcr';
+    display: inline-block;
+    font-weight: 700;
+    text-shadow: -1.5px 0 #ffffff, 0 1.5px #ffffff,
+      1.5px 0 #ffffff, 0 -1.5px #ffffff;
+}
+
+#sobre, #educ,#habi, #proj{
+    padding-bottom: 60px;
+}
+
+
+@media only screen and (max-width: 1920px){
+    .corpo{
+        margin-left: 200px;
+        margin-right: 200px;
+        padding: 30px;
+    }
+
+    .sobre{
+        margin-left: 100px;
+        margin-right: 100px;
+        height: 550px;
+    }
+
+    .sobre img{
+        width: 400px;
+        margin-left: 50px;
+    }
+
+    .sobre p{
+        margin-top: 100px;
+        font-size: 25px;
+        margin-right: 80px;
+    }
+
+    a #btnCv{
+        font-size: 30px;
+    }
+
+    .s-img{
+        width: calc(80%/2);
+        display: flex;
+        flex-wrap: wrap;
+        float: left;
+    }
+    
+    .s-txt{
+        width: calc(115%/2);
+        display: flex;
+        flex-wrap: wrap;
+        float: right;
+        word-spacing: 5px;
+    }
+
+    .educ{
+        margin-left: 150px;
+        margin-right: 150px;
+    }
+
+    .missoes{
+        margin-left: 100px;
+        margin-right: 100px;
+        padding: 30px;
+    }
+
+    .ejetado{
+        margin-bottom: 110px;
+        margin-top: 150px;
+    }
+
+   .proj{
+        margin-right: 180px;
+        margin-left: 180px;
+    }
+
+    .carrossel{
+        width: 750px;
+    } 
+}
+
+@media only screen and (max-width: 1755px){
+    .corpo{
+        margin-left: 150px;
+        margin-right: 150px;
+        padding: 30px;
+    }
+
+    .sobre{
+        margin-left: 70px;
+        margin-right: 70px;
+        height: 550px;
+    }
+
+    .sobre img{
+        width: 380px;
+        margin-left: 0px;
+    }
+
+    .sobre p{
+        margin-top: 100px;
+        font-size: 23px;
+        margin-right: 0px;
+    }
+
+    a #btnCv{
+        font-size: 25px;
+    }
+
+    .s-img{
+        width: calc(80%/2);
+        display: flex;
+        flex-wrap: wrap;
+        float: left;
+    }
+    
+    .s-txt{
+        width: calc(115%/2);
+        display: flex;
+        flex-wrap: wrap;
+        float: right;
+        word-spacing: 5px;
+    }
+
+    .proj{
+        margin-right: 150px;
+        margin-left: 150px;
+    }
+
+    .carrossel{
+        width: 600px;
+    }
+}
+
+@media only screen and (max-width: 1550px){
+    .corpo{
+        margin-left: 120px;
+        margin-right: 120px;
+        padding: 10px;
+    }
+
+    .sobre{
+        margin-left: 70px;
+        margin-right: 70px;
+        height: 450px;
+    }
+
+    .sobre img{
+        width: 330px;
+        margin-left: 10px;
+    }
+
+    .sobre p{
+        margin-top: 70px;
+        font-size: 20px;
+        margin-right: 10px;
+    }
+
+    a #btnCv{
+        font-size: 25px;
+    }
+
+    .s-img{
+        width: calc(80%/2);
+        display: flex;
+        flex-wrap: wrap;
+        float: left;
+    }
+    
+    .s-txt{
+        width: calc(115%/2);
+        display: flex;
+        flex-wrap: wrap;
+        float: right;
+        word-spacing: 5px;
+    }
+
+    .missoes{
+        margin-left: 50px;
+        margin-right: 50px;
+        padding: 30px;
+    }
+
+    
+}
+
+
+@media only screen and (max-width: 1320px){
+    .corpo{
+        margin-left: 120px;
+        margin-right: 120px;
+        padding: 10px;
+    }
+
+    .sobre{
+        margin-left: 70px;
+        margin-right: 70px;
+        height: 450px;
+    }
+
+    .sobre img{
+        width: 300px;
+        margin-left: 10px;
+    }
+
+    .sobre p{
+        margin-top: 70px;
+        font-size: 20px;
+        margin-right: 10px;
+    }
+
+    a #btnCv{
+        font-size: 25px;
+    }
+
+    .s-img{
+        width: calc(80%/2);
+        display: flex;
+        flex-wrap: wrap;
+        float: left;
+    }
+    
+    .s-txt{
+        width: calc(115%/2);
+        display: flex;
+        flex-wrap: wrap;
+        float: right;
+        word-spacing: 5px;
+    }
+
+    .missoes{
+        margin-left: 50px;
+        margin-right: 50px;
+        padding: 30px;
+    }
+
+    .educ{
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+
+    .ejetado{
+        margin-bottom: 90px;
+        margin-top: 140px;
+    }
+
+    .proj{
+        margin-right: 100px;
+        margin-left: 100px;
+    }
+
+    .carrossel{
+        width: 500px;
+    }
+}
+
+
+
+@media only screen and (max-width: 1180px){
+    .corpo{
+        margin-left: 100px;
+        margin-right: 100px;
+        padding: 10px;
+    }
+
+    .sobre{
+        height: auto;
+    }
+
+    .s-img{
+        width: calc(100%);
+        text-align: center;
+        display:block;
+        flex-wrap:nowrap;
+        position: center;
+        text-align: center;
+    }
+    
+    .s-txt{
+        width: calc(100%);
+        text-align: center;
+        display:block;
+        flex-wrap:nowrap;
+        position: center;
+        text-align: center;
+    }
+
+    .missoes{
+        margin-left: 50px;
+        margin-right: 50px;
+        padding: 30px;
+    }
+
+    .educ{
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .ejetado{
+        margin-bottom: 90px;
+        margin-top: 130px;
+    }
+    
+}
+
+@media only screen and (max-width: 900px){
+
+    .corpo{
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .missoes{
+        margin-left: 20px;
+        margin-right: 20px;
+        padding: 30px;
+    }
+
+    .educ{
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .proj{
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+
+    .carrossel{
+        width: 400px;
+    }
+}
+@media only screen and (max-width: 630px){
+    .corpo{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .inicio{
+        background-size: cover;
+        width: 100%;
+    }
+    .sobre{
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .carrossel{
+        width: 300px;
+    }
+
+    #vt{
+        right: -10px;
+        bottom: 30px;
+
+    }
+}
+
+@media only screen and (max-width: 500px){
+.tracinho{
+    width: 170px;
+}
+
+.traco{
+    width: 0;
+}
+
+.habi h2, .sobre h2, .proj h2{
+    font-size: 50px;
+}
+
+.ejetado{
+    margin-bottom: 30px;
+}
+
+}
+
+
