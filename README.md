@@ -1,10 +1,14 @@
-# 🌸 Portfólio - Amoung us 🌸
+<h1 align="center"> 🌸 Portfólio - Amoung us 🌸 </h1>
 
 <div align="center">
      <h3> Portfólio realizado como projeto final para a matéria de PWEB.</h3>
      <img src="img/tela.png" style="width:80%"/>
      <br>
      Para acessar o site clique <a href="https://portfolio-beatriz.netlify.app/">AQUI</a>.
+</div>
+
+<div>
+     <h2></h2>
 </div>
 
 + ### Tecnologias:
