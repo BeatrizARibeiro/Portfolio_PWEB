@@ -1,6 +1,7 @@
 <h2> <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com/?color=e269c7&size=30&center=true&vCenter=true&font=Paytone+One&duration=1&repeat=false&random=false&width=1000&lines=Portfólio+-+Amoung+us" alt="Typing SVG" /></a></h2>
 
-Portfólio realizado como projeto final para a matéria de PWEB (Programação Web). <br>No qual teria que escolher um tema de fantasia (filme, série, jogo, etc.) para a implementação do projeto, o tema escolhido foi o jogo Amung us.<br>
+Portfólio realizado como projeto final para a matéria de PWEB (Programação Web). No qual teria que escolher um tema de fantasia (filme, série, jogo, etc.) para utilizar na implementação do projeto, o tema escolhido foi o jogo Amung us.<br>
+
 **Instituição:** Fatec Sorocaba. <br>
 **Curso:** Análise e Desenvolvimento de Sistemas. <br>
 
